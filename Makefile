@@ -1,8 +1,7 @@
 .PHONY: all clean test compile
 
 LOCALDEP_DIR := $(shell pwd)/deps
-REBAR := $(shell pwd)/rebar3
-export LOCALDEP_DIR REBAR
+export LOCALDEP_DIR
 
 all: compile test
 

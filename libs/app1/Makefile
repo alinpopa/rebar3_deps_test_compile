@@ -1,10 +1,10 @@
 .PHONY: compile test clean
 
 compile:
-	$(REBAR) compile
+	rebar3 compile
 
 test:
-	$(REBAR) eunit
+	rebar3 do compile, eunit
 
 clean:
 	-rm -rf _build
