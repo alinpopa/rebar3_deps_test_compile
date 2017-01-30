@@ -6,10 +6,5 @@
    [kernel,
     stdlib
    ]},
-  {env,[]},
-  {modules, []},
-
-  {maintainers, []},
-  {licenses, []},
-  {links, []}
+  {env,[]}
  ]}.
